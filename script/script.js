@@ -22,7 +22,7 @@
 
 // 5
 // const arr = ['js', 'css', 'jq'];
-// console.log(arr[0])
+// console.log(arr.shift())
 
 // 6
 // const arr = ['js', 'css', 'jq']
@@ -70,10 +70,10 @@
 // const result = arr1.reduce((sum, current) => sum + current, 0);
 // console.log(result);
 
-//15
+// 15
 // const arr1 = [5, 6, 7, 8, 9];
-// const arr2 = arr1.map(function degreeOfItem(item) {
-//   return Math.pow(item, 2);
+// const arr2 = arr1.map(arr1 =>  {
+//   return Math.pow(arr1, 2);
 // });
 // console.log(arr2);
 
